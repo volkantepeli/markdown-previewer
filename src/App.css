@@ -49,6 +49,7 @@ textarea {
   font-family: Space Mono,monospace;
 }
 .btn-delete {
+  margin-left: 10px;
   background: #3c4773;
   font-size: 15px;
   font-weight: 700;
@@ -61,6 +62,7 @@ textarea {
   
 }
 .btn-go {
+  margin-right: 10px;
   background: #3c4773;
   font-size: 15px;
   font-weight: 700;

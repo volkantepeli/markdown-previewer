@@ -3,11 +3,15 @@ import ReactMarkdown from 'react-markdown'
 import Header from './Header';
 
 function Main() {
+    
   const [markdown,setMarkdown] = useState("this is user input");
   
   return (
     <div>
-        <Header />
+        <Header
+        markdown={markdown}
+        setMarkdown={setMarkdown}
+        />
         <div className='markdown__container'>
             <textarea 
             value={markdown}
